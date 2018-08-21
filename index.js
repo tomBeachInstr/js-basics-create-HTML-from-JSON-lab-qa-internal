@@ -4,6 +4,8 @@ document.addEventListener("DOMContentLoaded", function() {
   let titanicBtn = document.getElementById("Titanic");
   let terminatorBtn = document.getElementById("Terminator_2");
 
-  
+  titanicBtn.addEventListener('click', loadMovieData);
+
+
 
 })
