@@ -13,10 +13,11 @@ document.addEventListener("DOMContentLoaded", function() {
 
   function loadMovieData(whichMovie) {
     console.log("== loadMovieData ==");
-    console.log("whichMovie:", whichMovie);
 
     if (whichMovie === "Titanic") {
       console.log("--Titanic--");
+      let movieData = movies.Titanic;
+      console.log("movieData:", movieData);
     } else {
       console.log("--Terminator_2--");
     }
