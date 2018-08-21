@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
   let terminatorBtn = document.getElementById("Terminator_2");
 
   titanicBtn.addEventListener('click', loadMovieData);
+  terminatorBtn.addEventListener('click', loadMovieData);
 
   function loadMovieData() {
     console.log("== loadMovieData ==");
