@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
   console.log("== DOMContentLoaded ==");
 
+  let movieData;
   let titanicBtn = document.getElementById("Titanic");
   let terminatorBtn = document.getElementById("Terminator_2");
 
@@ -16,11 +17,12 @@ document.addEventListener("DOMContentLoaded", function() {
 
     if (whichMovie === "Titanic") {
       console.log("--Titanic--");
-      let movieData = movies.Titanic;
-      console.log("movieData:", movieData);
+      movieData = movies.Titanic;
     } else {
       console.log("--Terminator_2--");
-      let movieData = movies.Terminator_2;
+      movieData = movies.Terminator_2;
     }
+    console.log("movieData:", movieData);
+    
   }
 })
