@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
   console.log("== DOMContentLoaded ==");
+  console.log("movies:", movies);
 
   let titanicBtn = document.getElementById("Titanic");
   let terminatorBtn = document.getElementById("Terminator_2");
