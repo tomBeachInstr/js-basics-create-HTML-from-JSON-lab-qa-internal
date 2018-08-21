@@ -20,9 +20,5 @@ document.addEventListener("DOMContentLoaded", function() {
     } else {
       console.log("Terminator_2");
     }
-
-
-
-
   }
 })
