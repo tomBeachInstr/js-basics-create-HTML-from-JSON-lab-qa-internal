@@ -20,6 +20,7 @@ document.addEventListener("DOMContentLoaded", function() {
       console.log("movieData:", movieData);
     } else {
       console.log("--Terminator_2--");
+      let movieData = movies.Terminator_2;
     }
   }
 })
