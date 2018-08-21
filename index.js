@@ -6,6 +6,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
   titanicBtn.addEventListener('click', loadMovieData);
 
+  function loadMovieData() {
+    console.log("== loadMovieData ==");
+  }
 
 
 })
