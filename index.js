@@ -10,6 +10,4 @@ document.addEventListener("DOMContentLoaded", function() {
   function loadMovieData() {
     console.log("== loadMovieData ==");
   }
-
-
 })
