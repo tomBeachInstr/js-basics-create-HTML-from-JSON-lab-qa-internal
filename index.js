@@ -14,5 +14,15 @@ document.addEventListener("DOMContentLoaded", function() {
   function loadMovieData(whichMovie) {
     console.log("== loadMovieData ==");
     console.log("whichMovie:", whichMovie);
+
+    if (whichMovie === "Titanic") {
+      console.log("Titanic");
+    } else {
+      console.log("Terminator_2");
+    }
+
+
+
+
   }
 })
