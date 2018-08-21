@@ -16,9 +16,9 @@ document.addEventListener("DOMContentLoaded", function() {
     console.log("whichMovie:", whichMovie);
 
     if (whichMovie === "Titanic") {
-      console.log("Titanic");
+      console.log("--Titanic--");
     } else {
-      console.log("Terminator_2");
+      console.log("--Terminator_2--");
     }
   }
 })
