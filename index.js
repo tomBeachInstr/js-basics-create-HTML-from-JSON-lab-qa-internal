@@ -14,15 +14,27 @@ document.addEventListener("DOMContentLoaded", function() {
 
   function loadMovieData(whichMovie) {
     console.log("== loadMovieData ==");
-
     if (whichMovie === "Titanic") {
       console.log("--Titanic--");
       movieData = movies.Titanic;
     } else {
-      console.log("--Terminator_2--"); 
+      console.log("--Terminator_2--");
       movieData = movies.Terminator_2;
     }
     console.log("movieData:", movieData);
-
+    updatePage(movieData);
   }
+
+  function updatePage(movieData) {
+    console.log("== updatePage ==");
+    let title = document.getElementById("title");
+    title.innerHTML = movieData.title;
+  }
+
+
+
+
+
+
+
 })
