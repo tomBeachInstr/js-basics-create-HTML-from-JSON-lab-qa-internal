@@ -27,8 +27,11 @@ document.addEventListener("DOMContentLoaded", function() {
 
   function updatePage(movieData) {
     console.log("== updatePage ==");
-    let title = document.getElementById("title");
-    title.innerHTML = movieData.title;
+    document.getElementById("title").innerHTML = movieData.title;
+
+
+
+
   }
 
 
