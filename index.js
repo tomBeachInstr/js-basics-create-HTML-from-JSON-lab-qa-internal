@@ -19,10 +19,10 @@ document.addEventListener("DOMContentLoaded", function() {
       console.log("--Titanic--");
       movieData = movies.Titanic;
     } else {
-      console.log("--Terminator_2--");
+      console.log("--Terminator_2--"); 
       movieData = movies.Terminator_2;
     }
     console.log("movieData:", movieData);
-    
+
   }
 })
